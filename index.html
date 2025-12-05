@@ -44,17 +44,9 @@
     header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-end;
       gap: 12px;
       margin-bottom: 20px;
-    }
-
-    .logo {
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      color: var(--text-muted);
     }
 
     .tag {
@@ -381,22 +373,6 @@
       margin-top: 6px;
     }
 
-    footer {
-      margin-top: 26px;
-      font-size: 0.78rem;
-      color: var(--text-muted);
-      text-align: center;
-    }
-
-    footer a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
     @media (max-width: 860px) {
       body {
         padding: 16px 12px 40px;
@@ -417,7 +393,6 @@
        No está afiliado a Apple. Edita los textos como quieras. -->
   <div class="page">
     <header>
-      <div class="logo">TU NOMBRE · iPhone 17 Hub</div>
       <div class="tag">
         <span class="tag-dot"></span>
         <span>Datos actuales · Tono casual</span>
@@ -604,7 +579,7 @@
           <h2>5. Puntos débiles y cosas polémicas</h2>
           <div class="pill-row">
             <span class="pill bad">Precio sigue siendo alto</span>
-            <span class="pill warn">Algunos cambios raros en cámara Pro</span>
+            <span class="pill.warn">Algunos cambios raros en cámara Pro</span>
             <span class="pill bad">Carga rápida lejos de Android</span>
           </div>
           <ul>
@@ -751,15 +726,6 @@
         </section>
       </aside>
     </main>
-
-    <footer>
-      Página hecha por ti con HTML + CSS.  
-      Puedes subirla gratis a GitHub Pages y editarla cuando Apple saque nuevas funciones del iPhone 17.
-      <br />
-      <a href="https://www.apple.com/iphone-17/" target="_blank" rel="noopener noreferrer">
-        Ver página oficial del iPhone 17 en Apple.com
-      </a>
-    </footer>
   </div>
 </body>
 </html>
